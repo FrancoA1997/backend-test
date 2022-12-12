@@ -1,8 +1,0 @@
-spring:
-datasource:
-  url: mysql://${{ MYSQLUSER }}:${{ MYSQLPASSWORD }}@${{ MYSQLHOST }}:${{ MYSQLPORT }}/${{ MYSQLDATABASE }}
-  username: ${{ MYSQLUSER }}
-  password: ${{ MYSQLPASSWORD }}
-  server.port: ${{ MYSQLPORT }}
-  name: g-wallet-services
-
