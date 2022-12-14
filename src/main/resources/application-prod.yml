@@ -3,4 +3,5 @@ spring:
     url: jdbc:mysql://${{ MYSQLUSER }}:${{ MYSQLPASSWORD }}@${{ MYSQLHOST }}:${{ MYSQLPORT }}/${{ MYSQLDATABASE }}
   username: ${MYSQLUSER}
   password: ${MYSQLPASSWORD}
+  name: project1
 
